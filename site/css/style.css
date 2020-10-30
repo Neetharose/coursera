@@ -7,6 +7,9 @@ p {
   font-family: Helvetica;
   color: white;
 }
+div {
+  padding-right: 20px;
+}
 		h1{
 			text-align: center;
 
