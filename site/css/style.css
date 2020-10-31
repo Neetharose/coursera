@@ -5,7 +5,8 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  background-color: grey;
+  
 }
 div {
   padding-right: 20px;
@@ -17,25 +18,25 @@ h1{
 h2	{
 			
 			float:right;
-			position:absolute;
-			
+			position:absolute;			
 			border-style: solid;
 			border-width: 1px;
-			background-color: pink;
+			
 
 }
 .row {
  			 width: 100%;
-				}
-#p1 	{
+
+		 }
+#h1 	{
 			background-color: pink;
 }
-#p2
+#h2
 		{
 			background-color: blue;
 
 		}
-#p3{
+#h3{
 			background-color: grey;
 		}
 		section
