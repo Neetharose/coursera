@@ -8,9 +8,7 @@ p {
   margin-left: auto;
   font-family: Helvetica;
    
-}
-
-  
+}  
 h1{
 			text-align: center;
 
@@ -99,7 +97,7 @@ h2	{
      padding: 20px;
     background-color: grey; 
     margin-right: auto;
-  margin-left: auto;
+    margin-left: auto;
     }
   }
   .col-md-1 {
