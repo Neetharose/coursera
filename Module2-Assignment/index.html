@@ -1,61 +1,175 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Assignment Solution for Module 2</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1 ">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Goldfields  Trial</title>
+   
+    <link href="css/template.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="scripts/javascript/formatManager.js"></script>
+    <script src="scripts/javascript/contentManager.js"></script>
+    <script src="scripts/javascript/navigationManager.js"></script>
+    <script src="scripts/javascript/slideshowManager.js"></script>
+    <style type="text/css"></style>
+
 </head>
-<body>
-	
-	<div class="row">
-		<h1> Our Menu </h1>
-	<div class="col-lg-4 col-md-6 col-sm-12">
-		
-		<div class="container">
-		<div class="wrap">
-		<p>
-			<h2 id="h1">Chicken</h2>
 
-			<section>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum sodales rutrum. Integer quis justo cursus, eleifend quam et, volutpat justo. Nam rhoncus ullamcorper nisi. Nunc volutpat orci non commodo suscipit. Curabitur nec neque sit amet libero lobortis fermentum et quis tellus. Donec blandit euismod urna eget rutrum. Etiam laoreet tincidunt ornare.
-		</section>
-	</p>
-		</div>
-		</div>
-	</div>
-	
-	<div class="col-lg-4 col-md-6 col-sm-12">
-		
-		<div class="container">
-		<div class="wrap">
-		<p>
-			<h2 id="h2">Beef</h2>
-			<section>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum sodales rutrum. Integer quis justo cursus, eleifend quam et, volutpat justo. Nam rhoncus ullamcorper nisi. Nunc volutpat orci non commodo suscipit. Curabitur nec neque sit amet libero lobortis fermentum et quis tellus. Donec blandit euismod urna eget rutrum. Etiam laoreet tincidunt ornare. 
-		</section>
-		</p>
-	</div>
-		</div>
-	</div>
+<body onhashchange="updatePageContent()">
 
-	<div class="col-lg-4 col-md-12 col-sm-12">
-		
-		
-		<div class="container">
-		<div class="wrap">
-		<p>
-			<h2 id="h3">Sushi</h2>
-			<section>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum sodales rutrum. Integer quis justo cursus, eleifend quam et, volutpat justo. Nam rhoncus ullamcorper nisi. Nunc volutpat orci non commodo suscipit. Curabitur nec neque sit amet libero lobortis fermentum et quis tellus. Donec blandit euismod urna eget rutrum. Etiam laoreet tincidunt ornare. 
-		</section>
-	</p>
+<div class="headergrid">
+	<div id="logo">
+		<img src="images/logo2.png" class="responsive" height="120" width="150" alt=""/>
 	</div>
-	</div>
-
+	<div id="header">
 		
-	</div>
+		<h1 id=banner> Saint Marys Parish <br/> Goldfields Catholic Communities</h1>
 	</div>
 </div>
+
+<div id="navigationBar"><!--Site Navigation Menu-->
+		
+              <ul onclick="" class="topnav"><!--main ul-->
+              <li onclick="" class="home">Home</li>
+			  <li onclick="" class="parish"><div class="dropdown">
+				  <button class="dropbtn">Parish 
+				  <i class="fa fa-caret-down"></i>
+				  </button>
+	  
+                      <ul onclick="">
+                          <div class="dropdown-content">
+						  <li onclick="" class="catholiccommunities">Churches</li>
+						  <li onclick="" class="massschedule">Mass Schedule</li>
+                          <li onclick="" class="parishteam">Parish Team</li>
+                          <li onclick="" class="financecommitee">Finance Committee</li>
+                          <li onclick="" class="council">Council</li>
+						  <li onclick="" class="stmaryskal">Parish Schools</li>
+						  <li onclick="" class="missionarysistersofcharity">Missionary Sisters of Charity</li>  
+						  </div>						  
+                      </ul></li> 
+               <li onclick="" class="sacraments"><div class="dropdown">
+			   <button class="dropbtn">Sacraments 
+				  <i class="fa fa-caret-down"></i>
+				  </button>
+                      <ul onclick="">
+					  <div class="dropdown-content">
+                          <li onclick="" class="baptism">Baptism</li>
+                          <li onclick="" class="healing">Healing<br/>Anointing of the sick</li>
+                          <li onclick="" class="marriage">Marriage</li>
+                          <li onclick="" class="becomingcatholic">Becoming Catholic</li>
+						  </div>
+                      </ul></li>
+                
+                <li onclick="" class="pastoralministry"><div class="dropdown">
+			   <button class="dropbtn">Pastoral Ministry 
+				  <i class="fa fa-caret-down"></i>
+				  </button>
+                      <ul onclick="">
+					  <div class="dropdown-content">
+                          <li onclick="" class="acolytes">Acolytes</li>
+                          <li onclick="" class="altarservers">Altar Servers</li>
+                         
+                          <li onclick="" class="musicliturgy">Music Liturgy<br/>Choir</li>
+                          <li onclick="" class="homeblessing">Home Blessing</li>
+ <li onclick="" class="exordeucharist">Extraordinary Ministers of the Eucharist</li>						  
+					</div>						  
+                      </ul></li> 
+                 <li onclick="" class="faithformation"><div class="dropdown">
+			   <button class="dropbtn">Faith Formation
+				  <i class="fa fa-caret-down"></i>
+				  </button>
+                      <ul onclick="">
+					  <div class="dropdown-content">
+                          <li onclick="" class="rciasponsoring">RCIA Sponsoring</li>
+                          </div>
+                      </ul></li> 
+                  <li onclick="" class="youthministry">Youth</li>
+				  <li onclick="" class="nullarbormission">Nullarbor Mission</li>
+				  
+
+                 
+          	</ul><!--main ul-->
+          </div><!--navigationBar-->
+       
+
+<div id="background">
+  <div class="slidingimages">
+  		  <img class="mySlides"  src="images/slide0.jpg" >
+  		  <img class="mySlides"  src="images/slide1.jpg" >
+  		  <img class="mySlides"  src="images/slide2.jpg" >
+  		  <img class="mySlides"  src="images/slide3.jpg" >
+  		  <img class="mySlides"  src="images/slide4.jpg" >
+  		  <img class="mySlides"  src="images/slide5.jpg" >
+        <img class="mySlides"  src="images/slide6.jpg" >
+        <img class="mySlides"  src="images/slide7.jpg" >
+        <img class="mySlides"  src="images/slide8.jpg" >
+        <img class="mySlides"  src="images/slide9.jpg" >
+        <img class="mySlides"  src="images/slide10.jpg" >
+	
+  </div>
+
+<div class="contentgrid">
+  <div id ="emptyleft">
+  </div>
+	
+	<div class=menu>
+		<p id="content">
+                		<div class="text">
+                    		<h1>Javascript Disabled</h1>
+                    		<p>This website is powered by Javascript. To view the content of this site, please enable Javascript on your browser.<br />If you continue expiriencing problems, please consider updating your browser.</p>
+                    		<h2>Enabling Javascript</h2>
+                    		<p>If you require assistance with enabling Javascript, please click the link below.<br />
+                    		<a href="http://enable-javascript.com/">How to enable JavaScript in your browser</a>
+                    		</p>
+                    	</div>
+                    </p>
+	</div>
+  
+
+
+<div id="scrolling">
+ <button class="tithely-give-btn" style="background-color: #00DB72;width:235px;  font-family: inherit;font-weight: bold;font-size: 19px; padding: 15px 70px; border-radius: 4px; cursor: pointer; background-image: none; color: white; text-shadow: none; display: inline-block; float: none; border: none;" data-church-id="1705615">Offering </button>
+<script src="https://tithe.ly/widget/v3/give.js?3"></script>
+<script>
+var tw = create_tithely_widget();
+</script>
+		<p>		
+		<marquee direction="down" scrollamount="1" height ="200px" >Scrolling News <br/><br/><br/> Mass Schedule <br/><br/><br/> New Mass Timings </marquee>
+		</p>
+
+
+    <div id="bulletin">
+		  <a  href="/pdf/Bulletin/Bulletin.pdf" >
+         <img  alt="Bulletin" src="images/Bulletin.jpg" >
+      </a>
+		</div>
+    <div id="massschedule" >
+      
+      
+		<p class="massschedule">
+		<img  alt="Mass Schedule" src="images/mass.jpg" ></a>  </p>	  
+	 </div>
+</div>
+ </div>
+<div class="abovefooter">
+  <p>St Mary's Church <br/>
+    15 Porter Street<br/>
+    Kalgoorlie<br/>
+    WA 6430<br/>
+    Ph 08-90212100<br/>
+    Email kalgoorlie@perthcatholic.org.au <br/>
+	© 2015 Goldfields Catholic Parish 
+  </p>
+</div>
+<!--<div class="footer">
+	<p>© 2015 Goldfields Catholic Parish </p>
+</div>!-->
+
+
+</script>
+  <script src="script.js">    
+</script> 
+
 </body>
 </html>
